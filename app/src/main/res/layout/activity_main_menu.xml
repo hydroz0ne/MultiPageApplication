@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77463A"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/menuheader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/helveticaneuebold"
+        android:text="Menu - Mommy Lyn's Kitchen"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menudesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helveticaneuemedium"
+        android:text="Click the buttons to check the different foods below!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menuheader" />
+
+    <ScrollView
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/menudesc"
+        app:layout_constraintBottom_toTopOf="@id/backbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/food1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Beef Pares"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Biko"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Chopsuey"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Kare-kare"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Korean Cheese Bread"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Macaroni Salad"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Palabok"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Pancit Bihon"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Pandesal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Pinakbet"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Siopao"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food12"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Spaghetti"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food13"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Spring Rolls"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/food14"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#EDC49E"
+                android:fontFamily="@font/helveticaneuebold"
+                android:text="Ube Pandesal"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="222dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#EDC49E"
+        android:fontFamily="@font/helveticaneuebold"
+        android:text="Back to Main Page"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
